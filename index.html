@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="estilos/estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Parcial Web</title>
+</head>
+<body>
+	<div class="jcg-main">
+		<div class="jcg-search-logo">
+			<img class="jcg-logo" src="img/logo.png" alt="logo">
+		</div>
+		<!-- <form method="get" class="jcg-searchform"> -->
+		<div class="jcg-searchform">
+			<input class="jcg-searchform-input" id="jcg-search-text" type="text" placeholder="Buscar aquí" required>
+			<button class="jcg-searchform-button" type="submit" onClick="getData()">Buscar</button>
+		</div>
+		<!-- </form> -->
+		<div class="jcg-button">
+			<a class="jcg-rest-button" onClick="getRefresh()">Restablecer</a>
+		</div>
+	</div>
+	<br>
+	<div id="jcg-div-padre">
+	</div>
+	<script src='script/script.js'></script>
+</body>
+</html>
